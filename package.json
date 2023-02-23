@@ -6,19 +6,22 @@
   "scripts": {
     "start": "node ./src/index.js",
     "dev": "nodemon ./src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "swagger-autogen": "node src/swagger.js"
   },
   "keywords": [],
   "author": "Carlos Azaustre <cazaustre@gmail.com> (https://youtube.com/carlosazaustre)",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "swagger-autogen": "^2.23.1"
   },
   "dependencies": {
     "apicache": "^1.6.3",
-    "express": "^4.18.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "swagger-jsdoc": "^6.2.5",
-    "swagger-ui-express": "^4.5.0",
+    "swagger-ui-express": "^4.6.1",
     "uuid": "^8.3.2"
   }
 }
